@@ -12,16 +12,17 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:background">#F2F5CF</item>
+        <item name="android:background">#faf6f3</item>
         <item name="font">ℂ𝕫𝕔𝕚𝕠𝕟𝕜𝕚</item>
-        <item name="android:textColor">#7D684D</item>
+        <item name="android:textColor">#707070</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">17dp</item>
     </style>
     <style name="przyciski">
         <item name="android:shape">oval</item>
-        <item name="android:backgroundTint">@color/white</item>
-        <item name="android:textColor">#7D684D</item>
+        <item name="android:radius">360dp</item>
+        <item name="android:backgroundTint">#FAEED6</item>
+        <item name="android:textColor">#707070</item>
     </style>
 
 </resources>
