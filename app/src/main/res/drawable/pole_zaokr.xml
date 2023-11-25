@@ -8,4 +8,7 @@
         android:left="15dp"
         android:right="10dp"/>
 
+    <solid
+        android:color="@color/black"/>
+
 </shape>

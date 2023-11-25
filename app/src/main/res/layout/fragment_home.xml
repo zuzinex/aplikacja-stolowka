@@ -19,8 +19,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,24 +28,25 @@
         tools:src="@tools:sample/avatars" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etxt_imie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginTop="40dp"
         android:text="Imię"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:textSize="15dp"
+        android:textColor="#304864"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent" />
-
     <EditText
+        android:id="@+id/etxt_klasa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
         android:text="klasa"
+        android:textSize="13dp"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/etxt_imie" />
 
 
     <TextView
