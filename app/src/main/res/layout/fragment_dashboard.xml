@@ -113,16 +113,28 @@
         app:layout_constraintEnd_toStartOf="@+id/add_zupa"
         app:layout_constraintStart_toEndOf="@+id/txvZupa_2"
         app:layout_constraintTop_toTopOf="@+id/txvZupa" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kwadrat_btn_add"
+        app:backgroundTint="#FAEED6"
+        app:layout_constraintBottom_toBottomOf="@+id/add_zupa"
+        app:layout_constraintEnd_toEndOf="@+id/add_zupa"
+        app:layout_constraintStart_toStartOf="@+id/add_zupa"
+        app:layout_constraintTop_toTopOf="@+id/add_zupa" />
+
     <ImageButton
         android:id="@+id/add_zupa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"
         android:background=""
         android:src="@android:drawable/ic_menu_add"
         app:layout_constraintBottom_toBottomOf="@+id/txvZupa"
-        app:layout_constraintEnd_toEndOf="@+id/txvZupa"
-        android:layout_marginRight="7dp"
-        android:layout_marginBottom="7dp"/>
+        app:layout_constraintEnd_toEndOf="@+id/txvZupa" />
     <TextView
         android:id="@+id/txvZupa_2"
         android:layout_width="90dp"
@@ -415,6 +427,8 @@
         app:layout_constraintEnd_toEndOf="@+id/txvSałatka"
         android:layout_marginRight="7dp"
         android:layout_marginBottom="7dp"/>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

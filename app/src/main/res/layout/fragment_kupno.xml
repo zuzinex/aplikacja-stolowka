@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".navigation_kupno">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="75dp"
@@ -48,6 +60,7 @@
         android:shadowDx="10"
         android:shadowDy="10"
         android:shadowRadius="10"
+        android:elevation="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
@@ -55,32 +68,30 @@
     <Button
         android:id="@+id/btn_z_portfela"
         style="@style/przyciski"
-        android:layout_width="wrap_content"
+        android:layout_width="@+id/btn_przy_odbiorze"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
-        android:layout_marginLeft="10dp"
         android:background="@drawable/pole_zaokr"
         android:text="Z portela"
         android:textSize="13dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
         app:backgroundTint="#FAEED6"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintEnd_toStartOf="@+id/btn_przy_odbiorze"
-        app:layout_constraintStart_toStartOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
     <Button
         android:id="@+id/btn_przy_odbiorze"
         style="@style/przyciski"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/platnosc"
         android:text="Przy odbiorze"
         android:textSize="13dp"
         app:backgroundTint="#FAEED6"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toEndOf="@+id/btn_z_portfela"/>
+        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
     <TextView
         android:id="@+id/textView3"
@@ -91,17 +102,20 @@
         android:background=""
         android:text="SUMA"
         android:textSize="17sp"
+        android:elevation="2dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="@+id/textView" />
 
+
     <Button
+        android:id="@+id/button"
+        style="@style/przyciski"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Zamów"
-        style="@style/przyciski"
         android:layout_marginBottom="20dp"
-        app:backgroundTint="#FAEED6"
         android:background="@drawable/pole_zaokr"
+        android:text="Zamów"
+        app:backgroundTint="#FAEED6"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView" />
@@ -115,6 +129,7 @@
         android:background=""
         android:text="Podsumowanie:"
         android:textSize="25dp"
+        android:elevation="2dp"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
@@ -127,6 +142,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="-15dp"
         android:background="@drawable/ramka"
+        android:elevation="2dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView23"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
@@ -140,6 +156,7 @@
         android:layout_marginTop="-10dp"
         android:background="@color/white"
         android:text=" Wybierz godzinę: "
+        android:elevation="2dp"
         app:layout_constraintStart_toStartOf="@+id/textView21"
         app:layout_constraintTop_toTopOf="@+id/textView21" />
 
@@ -155,7 +172,6 @@
         android:textStyle=""
         app:backgroundTint="#FAEED6"
         app:layout_constraintStart_toStartOf="@+id/textView21"
-        tools:layout_editor_absoluteY="284dp"
         app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
     <TextView
@@ -167,6 +183,7 @@
         android:background=""
         android:text="Przerwa 20min"
         android:textSize="13dp"
+        android:elevation="2dp"
         app:layout_constraintEnd_toEndOf="@+id/btn_12.20"
         app:layout_constraintStart_toStartOf="@+id/btn_12.20"
         app:layout_constraintTop_toBottomOf="@+id/btn_12.20" />
@@ -194,9 +211,35 @@
         android:layout_marginBottom="10dp"
         android:text="Przerwa 15min"
         android:textSize="13dp"
+        android:elevation="2dp"
         app:layout_constraintEnd_toEndOf="@+id/btn_13.25"
         app:layout_constraintStart_toStartOf="@+id/btn_13.25"
         app:layout_constraintTop_toBottomOf="@+id/btn_13.25" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ramka"
+        android:elevation="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-10dp"
+        android:background="@color/white"
+        android:text=" Sposób płatności: "
+        android:elevation="2dp"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toTopOf="@+id/textView25" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
