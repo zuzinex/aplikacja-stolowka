@@ -14,5 +14,6 @@
             android:tint="#D1B468">
             <corners
                 android:radius="360dp"/>
+        </shape>
     </item>
 </selector>
