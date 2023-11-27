@@ -22,8 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
-        android:text="Imię"
+        android:text="@string/prompt_imie_nazwisko"
         android:textSize="15dp"
+        android:textColor="#304864"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent" />
     <EditText
@@ -31,9 +32,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:text="klasa"
+        android:text="@string/prompt_klasa"
         android:textSize="13dp"
-        android:textColor="#304864"
+        android:textColor="#707070"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/etxt_imie" />
 
