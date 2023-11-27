@@ -67,39 +67,39 @@
         android:text="Dzisiejsze dania:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
-        <TextView
-            android:id="@+id/txvZupa"
-            android:layout_width="0dp"
-            android:layout_height="95dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/menu_biala_warstwa"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView12" />
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
-            android:background=""
-            android:text="Zupa"
-            android:textSize="20sp"
-            app:layout_constraintStart_toEndOf="@+id/txvZupa_2"
-            app:layout_constraintTop_toTopOf="@+id/txvZupa" />
-        <TextView
-            android:id="@+id/cena_zupa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="cena"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="20dp"
-            android:background=""
-            android:textStyle=""
-            app:layout_constraintEnd_toEndOf="@+id/txvZupa"
-            app:layout_constraintTop_toTopOf="@+id/txvZupa" />
+    <TextView
+        android:id="@+id/txvZupa"
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/menu_biala_warstwa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:background=""
+        android:text="Zupa"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/txvZupa_2"
+        app:layout_constraintTop_toTopOf="@+id/txvZupa" />
+    <TextView
+        android:id="@+id/cena_zupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cena"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:background=""
+        android:textStyle=""
+        app:layout_constraintEnd_toEndOf="@+id/txvZupa"
+        app:layout_constraintTop_toTopOf="@+id/txvZupa" />
 
     <TextView
         android:id="@+id/textView10"
@@ -113,24 +113,24 @@
         app:layout_constraintEnd_toStartOf="@+id/add_zupa"
         app:layout_constraintStart_toEndOf="@+id/txvZupa_2"
         app:layout_constraintTop_toTopOf="@+id/txvZupa" />
-        <ImageButton
-            android:id="@+id/add_zupa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background=""
-            android:src="@android:drawable/ic_menu_add"
-            app:layout_constraintBottom_toBottomOf="@+id/txvZupa"
-            app:layout_constraintEnd_toEndOf="@+id/txvZupa"
-            android:layout_marginRight="7dp"
-            android:layout_marginBottom="7dp"/>
-        <TextView
-            android:id="@+id/txvZupa_2"
-            android:layout_width="90dp"
-            android:layout_height="0dp"
-            android:background="@drawable/menu_2_warstwa_borowy"
-            app:layout_constraintBottom_toBottomOf="@+id/txvZupa"
-            app:layout_constraintStart_toStartOf="@+id/txvZupa"
-            app:layout_constraintTop_toTopOf="@+id/txvZupa" />
+    <ImageButton
+        android:id="@+id/add_zupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background=""
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_constraintBottom_toBottomOf="@+id/txvZupa"
+        app:layout_constraintEnd_toEndOf="@+id/txvZupa"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"/>
+    <TextView
+        android:id="@+id/txvZupa_2"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        android:background="@drawable/menu_2_warstwa_borowy"
+        app:layout_constraintBottom_toBottomOf="@+id/txvZupa"
+        app:layout_constraintStart_toStartOf="@+id/txvZupa"
+        app:layout_constraintTop_toTopOf="@+id/txvZupa" />
 
 
     <TextView
@@ -144,36 +144,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txvZupa"
         android:layout_marginTop="15dp"/>
-        <TextView
-            android:id="@+id/txvDanieII_2"
-            android:layout_width="90dp"
-            android:layout_height="0dp"
-            android:background="@drawable/menu_2_warstwa_borowy"
-            app:layout_constraintBottom_toBottomOf="@+id/txvDanieII"
-            app:layout_constraintStart_toStartOf="@+id/txvDanieII"
-            app:layout_constraintTop_toTopOf="@+id/txvDanieII" />
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
-            android:background=""
-            android:text="Danie II"
-            android:textSize="20sp"
-            app:layout_constraintStart_toEndOf="@+id/txvDanieII_2"
-            app:layout_constraintTop_toTopOf="@+id/txvDanieII" />
-        <TextView
-            android:id="@+id/cena_danieII"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="cena"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="20dp"
-            android:background=""
-            android:textStyle=""
-            app:layout_constraintEnd_toEndOf="@+id/txvDanieII"
-            app:layout_constraintTop_toTopOf="@+id/txvDanieII" />
+    <TextView
+        android:id="@+id/txvDanieII_2"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        android:background="@drawable/menu_2_warstwa_borowy"
+        app:layout_constraintBottom_toBottomOf="@+id/txvDanieII"
+        app:layout_constraintStart_toStartOf="@+id/txvDanieII"
+        app:layout_constraintTop_toTopOf="@+id/txvDanieII" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:background=""
+        android:text="Danie II"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/txvDanieII_2"
+        app:layout_constraintTop_toTopOf="@+id/txvDanieII" />
+    <TextView
+        android:id="@+id/cena_danieII"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cena"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:background=""
+        android:textStyle=""
+        app:layout_constraintEnd_toEndOf="@+id/txvDanieII"
+        app:layout_constraintTop_toTopOf="@+id/txvDanieII" />
 
     <TextView
         android:layout_width="0dp"
@@ -186,16 +186,16 @@
         app:layout_constraintEnd_toStartOf="@+id/add_danieII"
         app:layout_constraintStart_toEndOf="@+id/txvDanieII_2"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
-        <ImageButton
-            android:id="@+id/add_danieII"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background=""
-            android:src="@android:drawable/ic_menu_add"
-            app:layout_constraintBottom_toBottomOf="@+id/txvDanieII"
-            app:layout_constraintEnd_toEndOf="@+id/txvDanieII"
-            android:layout_marginRight="7dp"
-            android:layout_marginBottom="7dp"/>
+    <ImageButton
+        android:id="@+id/add_danieII"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background=""
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_constraintBottom_toBottomOf="@+id/txvDanieII"
+        app:layout_constraintEnd_toEndOf="@+id/txvDanieII"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"/>
 
     <TextView
         android:id="@+id/textView13"
@@ -216,48 +216,48 @@
         android:background="@drawable/menu_biala_warstwa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
-        <TextView
-            android:id="@+id/txvTost_2"
-            android:layout_width="65dp"
-            android:layout_height="0dp"
-            android:background="@drawable/menu_2_warstwa_granat"
-            app:layout_constraintBottom_toBottomOf="@+id/txvTost"
-            app:layout_constraintStart_toStartOf="@+id/txvTost"
-            app:layout_constraintTop_toTopOf="@+id/txvTost" />
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
-            android:background=""
-            android:text="Tost"
-            android:textSize="18sp"
-            app:layout_constraintStart_toEndOf="@+id/txvTost_2"
-            app:layout_constraintTop_toTopOf="@+id/txvTost" />
-        <TextView
-            android:id="@+id/cena_tost"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginBottom="15dp"
-            android:background=""
-            android:text="cena"
-            android:textSize="18sp"
-            android:textStyle=""
-            app:layout_constraintBottom_toBottomOf="@+id/txvTost"
-            app:layout_constraintEnd_toEndOf="@+id/txvTost"
-            app:layout_constraintStart_toEndOf="@+id/txvTost_2" />
-        <ImageButton
-            android:id="@+id/add_tost"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background=""
-            android:src="@android:drawable/ic_menu_add"
-            app:layout_constraintBottom_toBottomOf="@+id/txvTost"
-            app:layout_constraintEnd_toEndOf="@+id/txvTost"
-            android:layout_marginRight="7dp"
-            android:layout_marginBottom="7dp"/>
+    <TextView
+        android:id="@+id/txvTost_2"
+        android:layout_width="65dp"
+        android:layout_height="0dp"
+        android:background="@drawable/menu_2_warstwa_granat"
+        app:layout_constraintBottom_toBottomOf="@+id/txvTost"
+        app:layout_constraintStart_toStartOf="@+id/txvTost"
+        app:layout_constraintTop_toTopOf="@+id/txvTost" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:background=""
+        android:text="Tost"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txvTost_2"
+        app:layout_constraintTop_toTopOf="@+id/txvTost" />
+    <TextView
+        android:id="@+id/cena_tost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:background=""
+        android:text="cena"
+        android:textSize="18sp"
+        android:textStyle=""
+        app:layout_constraintBottom_toBottomOf="@+id/txvTost"
+        app:layout_constraintEnd_toEndOf="@+id/txvTost"
+        app:layout_constraintStart_toEndOf="@+id/txvTost_2" />
+    <ImageButton
+        android:id="@+id/add_tost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background=""
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_constraintBottom_toBottomOf="@+id/txvTost"
+        app:layout_constraintEnd_toEndOf="@+id/txvTost"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"/>
 
     <TextView
         android:id="@+id/txvZapiekanka"
@@ -268,48 +268,48 @@
         android:background="@drawable/menu_biala_warstwa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
-        <TextView
-            android:id="@+id/txvZapiekanka_2"
-            android:layout_width="65dp"
-            android:layout_height="0dp"
-            android:background="@drawable/menu_2_warstwa_granat"
-            app:layout_constraintBottom_toBottomOf="@+id/txvZapiekanka"
-            app:layout_constraintStart_toStartOf="@+id/txvZapiekanka"
-            app:layout_constraintTop_toTopOf="@+id/txvZapiekanka" />
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
-            android:background=""
-            android:text="Zapiekanka"
-            android:textSize="18sp"
-            app:layout_constraintStart_toEndOf="@+id/txvZapiekanka_2"
-            app:layout_constraintTop_toTopOf="@+id/txvZapiekanka" />
-        <TextView
-            android:id="@+id/cena_zapiekanka"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginBottom="15dp"
-            android:background=""
-            android:text="cena"
-            android:textSize="18sp"
-            android:textStyle=""
-            app:layout_constraintBottom_toBottomOf="@+id/txvZapiekanka"
-            app:layout_constraintEnd_toEndOf="@+id/txvZapiekanka"
-            app:layout_constraintStart_toEndOf="@+id/txvZapiekanka_2" />
-        <ImageButton
-            android:id="@+id/add_zapiekanka"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background=""
-            android:src="@android:drawable/ic_menu_add"
-            app:layout_constraintBottom_toBottomOf="@+id/txvZapiekanka"
-            app:layout_constraintEnd_toEndOf="@+id/txvZapiekanka"
-            android:layout_marginRight="7dp"
-            android:layout_marginBottom="7dp"/>
+    <TextView
+        android:id="@+id/txvZapiekanka_2"
+        android:layout_width="65dp"
+        android:layout_height="0dp"
+        android:background="@drawable/menu_2_warstwa_granat"
+        app:layout_constraintBottom_toBottomOf="@+id/txvZapiekanka"
+        app:layout_constraintStart_toStartOf="@+id/txvZapiekanka"
+        app:layout_constraintTop_toTopOf="@+id/txvZapiekanka" />
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:background=""
+        android:text="Zapiekanka"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txvZapiekanka_2"
+        app:layout_constraintTop_toTopOf="@+id/txvZapiekanka" />
+    <TextView
+        android:id="@+id/cena_zapiekanka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:background=""
+        android:text="cena"
+        android:textSize="18sp"
+        android:textStyle=""
+        app:layout_constraintBottom_toBottomOf="@+id/txvZapiekanka"
+        app:layout_constraintEnd_toEndOf="@+id/txvZapiekanka"
+        app:layout_constraintStart_toEndOf="@+id/txvZapiekanka_2" />
+    <ImageButton
+        android:id="@+id/add_zapiekanka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background=""
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_constraintBottom_toBottomOf="@+id/txvZapiekanka"
+        app:layout_constraintEnd_toEndOf="@+id/txvZapiekanka"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"/>
 
     <TextView
         android:id="@+id/txvPanini"
@@ -320,48 +320,48 @@
         android:background="@drawable/menu_biala_warstwa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txvTost" />
-        <TextView
-            android:id="@+id/txvPanini_2"
-            android:layout_width="65dp"
-            android:layout_height="0dp"
-            android:background="@drawable/menu_2_warstwa_granat"
-            app:layout_constraintBottom_toBottomOf="@+id/txvPanini"
-            app:layout_constraintStart_toStartOf="@+id/txvPanini"
-            app:layout_constraintTop_toTopOf="@+id/txvPanini" />
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
-            android:background=""
-            android:text="Panini"
-            android:textSize="18sp"
-            app:layout_constraintStart_toEndOf="@+id/txvPanini_2"
-            app:layout_constraintTop_toTopOf="@+id/txvPanini" />
-        <TextView
-            android:id="@+id/cena_panini"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginBottom="15dp"
-            android:background=""
-            android:text="cena"
-            android:textSize="18sp"
-            android:textStyle=""
-            app:layout_constraintBottom_toBottomOf="@+id/txvPanini"
-            app:layout_constraintEnd_toEndOf="@+id/txvPanini"
-            app:layout_constraintStart_toEndOf="@+id/txvPanini_2" />
-        <ImageButton
-            android:id="@+id/add_panini"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background=""
-            android:src="@android:drawable/ic_menu_add"
-            app:layout_constraintBottom_toBottomOf="@+id/txvPanini"
-            app:layout_constraintEnd_toEndOf="@+id/txvPanini"
-            android:layout_marginRight="7dp"
-            android:layout_marginBottom="7dp"/>
+    <TextView
+        android:id="@+id/txvPanini_2"
+        android:layout_width="65dp"
+        android:layout_height="0dp"
+        android:background="@drawable/menu_2_warstwa_granat"
+        app:layout_constraintBottom_toBottomOf="@+id/txvPanini"
+        app:layout_constraintStart_toStartOf="@+id/txvPanini"
+        app:layout_constraintTop_toTopOf="@+id/txvPanini" />
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:background=""
+        android:text="Panini"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txvPanini_2"
+        app:layout_constraintTop_toTopOf="@+id/txvPanini" />
+    <TextView
+        android:id="@+id/cena_panini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:background=""
+        android:text="cena"
+        android:textSize="18sp"
+        android:textStyle=""
+        app:layout_constraintBottom_toBottomOf="@+id/txvPanini"
+        app:layout_constraintEnd_toEndOf="@+id/txvPanini"
+        app:layout_constraintStart_toEndOf="@+id/txvPanini_2" />
+    <ImageButton
+        android:id="@+id/add_panini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background=""
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_constraintBottom_toBottomOf="@+id/txvPanini"
+        app:layout_constraintEnd_toEndOf="@+id/txvPanini"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"/>
 
     <TextView
         android:id="@+id/txvSałatka"
@@ -373,48 +373,48 @@
         app:layout_constrainEnd_toEndOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txvZapiekanka" />
-        <TextView
-            android:id="@+id/txvSałatka_2"
-            android:layout_width="65dp"
-            android:layout_height="0dp"
-            android:background="@drawable/menu_2_warstwa_granat"
-            app:layout_constraintBottom_toBottomOf="@+id/txvSałatka"
-            app:layout_constraintStart_toStartOf="@+id/txvSałatka"
-            app:layout_constraintTop_toTopOf="@+id/txvSałatka" />
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
-            android:background=""
-            android:text="Sałatka"
-            android:textSize="18sp"
-            app:layout_constraintStart_toEndOf="@+id/txvSałatka_2"
-            app:layout_constraintTop_toTopOf="@+id/txvSałatka" />
-        <TextView
-            android:id="@+id/cena_sałatka"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginBottom="15dp"
-            android:background=""
-            android:text="cena"
-            android:textSize="18sp"
-            android:textStyle=""
-            app:layout_constraintBottom_toBottomOf="@+id/txvSałatka"
-            app:layout_constraintEnd_toEndOf="@+id/txvSałatka"
-            app:layout_constraintStart_toEndOf="@+id/txvSałatka_2" />
-        <ImageButton
-            android:id="@+id/add_sałatka"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background=""
-            android:src="@android:drawable/ic_menu_add"
-            app:layout_constraintBottom_toBottomOf="@+id/txvSałatka"
-            app:layout_constraintEnd_toEndOf="@+id/txvSałatka"
-            android:layout_marginRight="7dp"
-            android:layout_marginBottom="7dp"/>
+    <TextView
+        android:id="@+id/txvSałatka_2"
+        android:layout_width="65dp"
+        android:layout_height="0dp"
+        android:background="@drawable/menu_2_warstwa_granat"
+        app:layout_constraintBottom_toBottomOf="@+id/txvSałatka"
+        app:layout_constraintStart_toStartOf="@+id/txvSałatka"
+        app:layout_constraintTop_toTopOf="@+id/txvSałatka" />
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:background=""
+        android:text="Sałatka"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txvSałatka_2"
+        app:layout_constraintTop_toTopOf="@+id/txvSałatka" />
+    <TextView
+        android:id="@+id/cena_sałatka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:background=""
+        android:text="cena"
+        android:textSize="18sp"
+        android:textStyle=""
+        app:layout_constraintBottom_toBottomOf="@+id/txvSałatka"
+        app:layout_constraintEnd_toEndOf="@+id/txvSałatka"
+        app:layout_constraintStart_toEndOf="@+id/txvSałatka_2" />
+    <ImageButton
+        android:id="@+id/add_sałatka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background=""
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_constraintBottom_toBottomOf="@+id/txvSałatka"
+        app:layout_constraintEnd_toEndOf="@+id/txvSałatka"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
