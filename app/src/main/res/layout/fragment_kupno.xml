@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@tools:sample/avatars" />
 
-    <EditText
+    <TextView
         android:id="@+id/etxt_imie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
         android:textColor="#304864"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent" />
-    <EditText
+    <TextView
         android:id="@+id/etxt_klasa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
